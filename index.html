@@ -3,38 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div class="container">
+    <div class="left">
+      <div class="blur">
+        <img src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="box">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop" class="woman">
+      </div>
+      </div>
+    <div class="right">
+      <h1>FAQ</h1>
+      <div class="text">
+        <ul>
+          <li class="dropdown">
+            <button>
+              <h4>
+                How many team members can I invite?
+              </h4>
+              <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow">
+            </button>
+              <p>
+                You can invite up to 2 additional users on the Free plan. There is no limit on 
+                team members for the Premium plan.
+              </p>
+         </li>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+         <li class="dropdown">
+          <button>
+            <h4>
+              What is the maximum file upload size?
+            </h4>
+            <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow">
+          </button>
+            <p>
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+        </li>
+          
+        <li class="dropdown">
+          <button>
+            <h4>
+              How do I reset my password?            
+            </h4>
+            <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"  class="arrow">
+          </button>
+            <p>
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+        </li>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <li class="dropdown">
+          <button>
+            <h4>
+              Can I cancel my subscription?
+            </h4>
+            <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"  class="arrow">
+          </button>
+            <p class="show">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+        </li>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
+        <li class="dropdown">
+          <button>
+            <h4>
+              Do you provide additional support?
+            </h4>
+            <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow">
+          </button>
+            <p class="show">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/codewithmide/FAQ-accordion-card.git">Olumide Micheal</a>.
   </div>
+  <script defer src="script.js"></script>
+>>>>>>> 40e9690953af0595f851c515714610df607d73a9
 </body>
 </html>
