@@ -58,6 +58,10 @@ body {
     z-index: -1;
 }
 
+.mobile {
+    display: none;
+}
+
 .right {
     width: 50%;
     height: 100%;
@@ -118,4 +122,45 @@ h4:hover {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 460px) {
+    .container {
+        width: 90%;
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile-woman {
+        height: 100%;
+        width: 100%;
+        background-image: url(./images/illustration-woman-online-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pattern {
+        background-image: url(./images/bg-pattern-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
 }
